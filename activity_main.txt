@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mca.asyntask.MainActivity">
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Enter url here"/>
+    <EditText
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:id="@+id/ed1"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/b2"
+        android:text="submit"/>
+    <ImageView
+        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:id="@+id/im1"/>
+
+
+</GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
